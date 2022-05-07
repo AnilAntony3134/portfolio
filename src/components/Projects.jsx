@@ -79,7 +79,11 @@ const Desc = styledComponents.div`
     padding: 20px;
 `
 
-
+const style =
+{
+    textDecoration: "none",
+    color: "white",
+}
 
 const Projects = () => {
   return (
@@ -92,52 +96,65 @@ const Projects = () => {
         </Desc1>
         <Projectss>
             <Project>
+            <a target="_blank" href=" https://ecommerce-9ab38.web.app" style={style}>
                 <Img src={img1}/>
                 <Hover>
                     <Title>ECommerce Website</Title>
                     <Desc>React JS</Desc>
-                    <Desc>E Commerce Website which uses multiple functionalities like context api and product listing</Desc>
+                    <Desc>E Commerce Website which has a working cart using context api and also product listing</Desc>
                 </Hover>
+                </a>
             </Project>
             <Project>
+            <a target="_blank" href="https://stjosephcathedralpalayam.org/" style={style}>
                 <Img src={img2}/>
                 <Hover>
                     <Title>Church Website</Title>
                     <Desc>React JS</Desc>
                     <Desc>Official website for church included blogs & updates 5 day project</Desc>
                 </Hover>
+                </a>
             </Project>
             <Project>
+            <a target="_blank" href=" https://netflix-clone-6203f.firebaseapp.com" style={style}>
                 <Img src={img3}/>
                 <Hover>
                     <Title>Netflix Clone</Title>
                     <Desc>React JS</Desc>
                     <Desc>Netflix Clone app which fetches data from an API to retrieve information</Desc>
                 </Hover>
+                </a>
             </Project>
+            
             <Project>
+            <a target="_blank" href=" https://anilantony3134.github.io/Recovery-Service/" style={style}>
                 <Img src={img4}/>
                 <Hover>
                     <Title>Vehicle Recovery Page</Title>
                     <Desc>HTML CSS</Desc>
                     <Desc>Official website for church included blogs & updates 5 day project</Desc>
                 </Hover>
+                </a>
             </Project>
             <Project>
+            <a target="_blank" href="https://anilantony3134.github.io/KSU/" style={style}>
                 <Img src={img5}/>
                 <Hover>
                     <Title>Student Union Website</Title>
                     <Desc>HTML CSS</Desc>
                     <Desc>Official website for church included blogs & updates 5 day project</Desc>
                 </Hover>
+                </a>
             </Project>
             <Project>
+            <a target="_blank" href="https://anilantony3134.github.io/KeralaTourism/" style={style}>
                 <Img src={img6}/>
                 <Hover>
                     <Title>Kerala Tourism Website</Title>
                     <Desc>HTML CSS</Desc>
                     <Desc>Official website for church included blogs & updates 5 day project</Desc>
                 </Hover>
+                </a>
             </Project>
         </Projectss>
     </Container>

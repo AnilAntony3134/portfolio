@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styledComponents from 'styled-components';
 import image from '../assets/photos/IMG_0677.JPG'
 const Container = styledComponents.div`
@@ -60,6 +61,11 @@ const Image = styledComponents.img`
     padding: 10px;
     border-radius: 50%;
 `
+const style =
+{
+    textDecoration: "none",
+    color: "white",
+}
 
 const Aboutme = () => {
   return (
@@ -86,7 +92,9 @@ const Aboutme = () => {
                 <B>Phone:</B> <P> +91 9037210582</P> */}
                 <B>LinkedIn:</B><P> https://www.linkedin.com/in/anil-antony-24b3461b7</P> 
                 <B>Github:</B><P> https://github.com/AnilAntony3134</P>
-                <Button> Resume </Button>
+                <Button>
+                    <a target="_blank" href="https://drive.google.com/file/d/1-fAxIjzBYmPkPT463JR3QsR0a58D-jYH/view?usp=sharing" style={style}>  Resume </a>
+                </Button>
             </Description>
         </Right>
         <Left>

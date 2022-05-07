@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styledComponents from "styled-components"
 
 const Container = styledComponents.div`
@@ -55,6 +56,11 @@ const Img = styledComponents.img`
     filter: invert(100%); 
 
 `
+const style =
+{
+    textDecoration: "none",
+    color: "white",
+}
 
 
 const Navbar = () => {
@@ -89,8 +95,11 @@ const Navbar = () => {
           
           </Center>
           <Right>
+          <a target="_blank" href="https://github.com/AnilAntony3134" style={style}>
               <Img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
               </Img>
+ 
+              </a>
           
           </Right>
       </Container>

@@ -1,17 +1,23 @@
 import './App.css';
+import { BrowserRouter} from "react-router-dom";
 import { Aboutme, Contact, Header, Navbar, Projects ,Skills} from "./components"
+// import { Routers } from 'react-routers';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-       <Navbar />
+    {/* <Routes> */}
+      <Navbar />
       <Header />
       <Aboutme />
       <Projects />
       <Skills />
-      <Contact/> 
-      
+      <Contact/>
+      {/* </Routes> */}
     </div>
+    </BrowserRouter>
+    
   );
 }
 
