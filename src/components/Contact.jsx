@@ -1,0 +1,96 @@
+import styledComponents from "styled-components"
+// import GoLocation from 'react-icons/go';
+// import FiPhoneCall  from 'react-icons/fi';
+// import HiMail from 'react-icons/hi';
+
+const Container = styledComponents.div`
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 25vh;
+    // justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+`
+const Title = styledComponents.div`
+    font-size: 40px;
+`
+
+const Desc = styledComponents.div`
+    font-size: 20px;
+    color: var(--blue);
+`
+
+const Items = styledComponents.div`
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+`
+
+const Item = styledComponents.div`
+    display: flex;
+    flex-direction: column;
+    justfiy-content: center;
+    align-items: center;
+`
+
+const Title1 = styledComponents.div`
+    font-size: 16px;
+`
+const Desc1 = styledComponents.div`
+    font-size: 20px
+`
+
+
+const Contact = () => {
+  return (
+    <Container>
+        <Title>
+            Contact Info
+        </Title>
+        <Desc>
+            Feel free to contact me for career prospects business services and other professional enquiries
+        </Desc>
+        <Items>
+        <Item>
+            {/* <Icon>
+                <GoLocation />
+            </Icon> */}
+            <Title1>
+                Location
+            </Title1>
+            <Desc1>
+                Bengaluru, Kanataka
+            </Desc1>
+        </Item>
+        <Item>
+            {/* <Icon>
+                <FiPhoneCall />
+            </Icon> */}
+            <Title1>
+                Phone
+            </Title1>
+            <Desc1>
+                9037210582
+            </Desc1>
+        </Item>
+        <Item>
+            {/* <Icon>
+                <HiMail />
+            </Icon> */}
+            <Title1>
+                Mail
+            </Title1>
+            <Desc1>
+                anilantony3134@gmail.com
+            </Desc1>
+        </Item>
+        </Items>
+    </Container>
+  )
+}
+
+export default Contact
