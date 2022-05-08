@@ -60,6 +60,7 @@ const Img = styledComponents.img`
     width: 55px;
     background-color: #000000;
     filter: invert(100%); 
+    margin-right: 25px;
     
 
 `
