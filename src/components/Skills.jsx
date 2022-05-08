@@ -41,6 +41,11 @@ const Icon = styledComponents.div`
     justify-content: center;
     align-items: center;
     font-size: 45px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    &:hover{
+        transform: scale(1.1)
+    }
 `
 const P = styledComponents.div`
     font-size: 20px;
