@@ -5,6 +5,7 @@ import { IoLogoFirebase } from 'react-icons/io5' ;
 import { DiJqueryLogo, DiCss3 } from 'react-icons/di';
 import { AiFillHtml5 } from 'react-icons/ai';
 // import { BsFillBootstrapFill } from 'react-icons/bs';
+import { mobile } from "../responsive";
 
 
 const Container = styledComponents.div`
@@ -22,13 +23,17 @@ const Title = styledComponents.div`
 `
 const Description = styledComponents.div`
     font-size: 22px;
+    color: var(--blue);
     margin-bottom: 20px;
+    text-align: center;
+    ${mobile({ fontSize: "18px" })};
 `
 const Icons = styledComponents.div`
     display: grid;
     margin-top: 25px;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 4rem 2rem;
+    ${mobile({  gridTemplateColumns: "repeat(3, 1fr)",})}
 `
 const Icon = styledComponents.div`
     display: flex;

@@ -1,7 +1,8 @@
 import styledComponents from "styled-components"
 import { FaReact } from 'react-icons/fa';
 import { SiRedux, SiJavascript , SiNetlify , SiStyledcomponents } from 'react-icons/si';
-import { IoLogoFirebase } from 'react-icons/io5' 
+import { IoLogoFirebase } from 'react-icons/io5';
+import { mobile } from "../responsive"; 
   
 
 
@@ -16,6 +17,7 @@ const Container = styledComponents.div`
     align-items: center;
     position: relative;
     color: white;
+    ${mobile({ height: "100vh",})}
 
 `
 // const Circle = styledComponents.div`
@@ -35,6 +37,7 @@ const Title = styledComponents.div`
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
+   ${mobile({  fontSize: "25px",})}
 `
 const T1 = styledComponents.div`
     color:var(--blue);
@@ -51,6 +54,7 @@ const T2 = styledComponents.div`
 const Subtitle1 = styledComponents.div`
    font-size: 20px;
    margin-bottom: 20px;
+   ${mobile({  fontSize: "20px",})}
 `
 // const Rectangle1 = styledComponents.div`
 //    background-color: #f3f3f3;
@@ -62,9 +66,11 @@ const Subtitle1 = styledComponents.div`
 // `
 const Text = styledComponents.div`
     display: flex;
+    text-align: center;
    font-size: 20px;
    margin: 10px;
    margin-bottom: 20px;
+   ${mobile({  fontSize: "15px",})}
 `
 const Button = styledComponents.button`
    font-size: 20px;
@@ -75,8 +81,12 @@ const Button = styledComponents.button`
    border-radius: 10px;
    transition: 0.5s;
    cursor: pointer;
+   ${mobile({  fontSize: "15px",
+               padding: "15px 50px",                
+})}
    &:hover{
        background-color: #be0d60;
+
    }
 `
 const Icons = styledComponents.div`

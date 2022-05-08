@@ -1,19 +1,23 @@
 import { Link } from "react-router-dom"
 import styledComponents from "styled-components"
+import { mobile } from "../responsive";
 
 const Container = styledComponents.div`
     display: flex;
     background-color: #000000;
     color: white;
     height: 60px;
-    width: 100%;
+    width: 100vw;
     justify-content: space-between;
     position: fixed;
     top: 0;
     z-index: 999;
+    overflow: hidden;
+   
 `
 const Left = styledComponents.div`
     flex: 1;
+    
 `
 const Title = styledComponents.div`
     display: flex;
@@ -21,6 +25,8 @@ const Title = styledComponents.div`
     margin-left: 12px;
     margin-top: 12px;
     font-size: 28px;
+    align-items: center;
+    ${mobile({ fontSize: "20px",})}
 `
 const T1 = styledComponents.div`
     // font-size: 25px;
@@ -35,6 +41,7 @@ const Center = styledComponents.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    ${mobile({ display: "none",})}
 `
 const Items = styledComponents.div`
     margin-right: 15px;
@@ -54,6 +61,7 @@ const Img = styledComponents.img`
     width: 55px;
     background-color: #000000;
     filter: invert(100%); 
+    
 
 `
 const style =

@@ -5,6 +5,7 @@ import img3 from "../assets/photos/Screenshot (2).png";
 import img4 from "../assets/photos/Screenshot (8).png";
 import img5 from "../assets/photos/Screenshot (9).png";
 import img6 from "../assets/photos/Screenshot (10).png";
+import { mobile } from "../responsive";
 
 const Container = styledComponents.div`
     height: 100vh;
@@ -15,6 +16,8 @@ const Container = styledComponents.div`
     align-items: center;
     background-color: black;
     color: white;
+    ${mobile({ height: "100%",})}
+    
 `
 const Title1 = styledComponents.div`
     font-size: 52px;
@@ -25,17 +28,20 @@ const Desc1 = styledComponents.div`
     font-size: 22px;
     color: var(--blue);
     margin-bottom: 80px;
+    text-align: center;
 `
 const Projectss = styledComponents.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem 2rem;
+    ${mobile({ gridTemplateColumns: "repeat(1, 1fr)",})}
 `
 const Project = styledComponents.div`
     position: relative;
     transition: 0.5s;
     width: 280px;
     height:200px;
+    ${mobile({ marginBottom: "10px",})}
 `
 const Hover = styledComponents.div`
     position: absolute;

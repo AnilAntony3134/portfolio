@@ -2,13 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styledComponents from 'styled-components';
 import image from '../assets/photos/IMG_0677.JPG'
+import { mobile } from "../responsive";
+
 const Container = styledComponents.div`
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    ${mobile({ flexDirection: "column-reverse",
+           
+})}
 `
 const Left = styledComponents.div`
     flex: 1;
@@ -27,12 +32,15 @@ const Title = styledComponents.div`
     font-weight: 600;
     margin-left: 12px;
     align-text: left;
+    ${mobile({ maxWidth: "300px",      
+})}
 
 `
 const Description = styledComponents.div`
     margin-top: 25px;
     width: 500px;
-
+    ${mobile({ maxWidth: "300px",      
+})}
 
 `
 const P = styledComponents.div`
@@ -60,6 +68,7 @@ const Image = styledComponents.img`
     object-fit: cover;
     padding: 10px;
     border-radius: 50%;
+    ${mobile({ width: "280px", height: "280px"})}
 `
 const style =
 {

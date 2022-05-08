@@ -2,6 +2,7 @@ import styledComponents from "styled-components"
 // import GoLocation from 'react-icons/go';
 // import FiPhoneCall  from 'react-icons/fi';
 // import HiMail from 'react-icons/hi';
+import { mobile } from "../responsive"
 
 const Container = styledComponents.div`
     display: flex;
@@ -13,6 +14,7 @@ const Container = styledComponents.div`
     background-color: black;
     color: white;
     padding-top: 25px;
+    ${mobile({ height: "100%" , paddingBottom: "20px" })}
 `
 const Title = styledComponents.div`
     font-size: 40px;
@@ -21,6 +23,7 @@ const Title = styledComponents.div`
 const Desc = styledComponents.div`
     font-size: 20px;
     color: var(--blue);
+    text-align: center;
 `
 
 const Items = styledComponents.div`
@@ -28,6 +31,7 @@ const Items = styledComponents.div`
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    ${mobile({ flexDirection: "column" , })}
 `
 
 const Item = styledComponents.div`
@@ -35,6 +39,7 @@ const Item = styledComponents.div`
     flex-direction: column;
     justfiy-content: center;
     align-items: center;
+    ${mobile({ marginBottom: "20px" })}
 `
 
 const Title1 = styledComponents.div`
