@@ -84,7 +84,7 @@ const Navbar = () => {
                 </T2>
             </Title>
           </Left>
-          <Center>
+          {/* <Center>
             <Items>
                 Home
             </Items>
@@ -101,7 +101,7 @@ const Navbar = () => {
                 Contact
             </Items>
           
-          </Center>
+          </Center> */}
           <Right>
           <a target="_blank" href="https://github.com/AnilAntony3134" style={style}>
               <Img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
