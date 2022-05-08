@@ -2,6 +2,7 @@ import styledComponents from "styled-components"
 import { FaReact } from 'react-icons/fa';
 import { SiRedux, SiJavascript , SiNetlify , SiStyledcomponents } from 'react-icons/si';
 import { IoLogoFirebase } from 'react-icons/io5';
+import {  DiCss3 } from 'react-icons/di';
 import { mobile } from "../responsive"; 
   
 
@@ -111,7 +112,7 @@ const Header = () => {
             Hi, 
         </Subtitle1>
             <T1>
-            I'am Anil
+            I'm Anil
             </T1>
             <T2>
                Front End Developer
@@ -134,7 +135,7 @@ const Header = () => {
                     <SiJavascript />
                 </Icon>
                 <Icon>
-                    <SiStyledcomponents />
+                   <DiCss3 />
                 </Icon>
             </Icons>
             <Button>More About Me</Button>        
