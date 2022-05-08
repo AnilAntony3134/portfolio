@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import styledComponents from "styled-components"
 import { mobile } from "../responsive";
 
