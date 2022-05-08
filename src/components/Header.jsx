@@ -4,6 +4,7 @@ import { SiRedux, SiJavascript , SiNetlify , SiStyledcomponents } from 'react-ic
 import { IoLogoFirebase } from 'react-icons/io5';
 import {  DiCss3 } from 'react-icons/di';
 import { mobile } from "../responsive"; 
+import { Link } from "react-router-dom";
   
 
 
@@ -102,6 +103,10 @@ const Icon = styledComponents.div`
         transform: scale(1.3);
     }
 `
+const style = {
+    textDecoration: "none",
+    color: "white",
+}
 
 
 const Header = () => {
@@ -138,7 +143,9 @@ const Header = () => {
                    <DiCss3 />
                 </Icon>
             </Icons>
-            <Button>More About Me</Button>        
+            <a target="_blank" href="https://drive.google.com/file/d/1yhWhsn_0xWEPhhBafy71Co6B1dTRQsmj/view?usp=sharing" style={style}>
+            <Button>More About Me</Button> 
+            </a>  
         </Title>
 {/* 
         <Rectangle1>

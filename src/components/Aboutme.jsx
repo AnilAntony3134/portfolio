@@ -102,7 +102,7 @@ const Aboutme = () => {
                 <B>LinkedIn:</B><P> https://www.linkedin.com/in/anil-antony-24b3461b7</P> 
                 <B>Github:</B><P> https://github.com/AnilAntony3134</P>
                 <Button>
-                    <a target="_blank" href="https://drive.google.com/file/d/1-fAxIjzBYmPkPT463JR3QsR0a58D-jYH/view?usp=sharing" style={style}>  Resume </a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1yhWhsn_0xWEPhhBafy71Co6B1dTRQsmj/view?usp=sharing" style={style}>  Resume </a>
                 </Button>
             </Description>
         </Right>
