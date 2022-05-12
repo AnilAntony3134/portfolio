@@ -132,7 +132,7 @@ const Projects = () => {
                 </a>
             </Project>
             
-            <Project>
+            {/* <Project>
             <a target="_blank" href=" https://anilantony3134.github.io/Recovery-Service/" style={style}>
                 <Img src={img4}/>
                 <Hover>
@@ -161,7 +161,7 @@ const Projects = () => {
                     <Desc>Static Website created using HTML CSS and JavaScript</Desc>
                 </Hover>
                 </a>
-            </Project>
+            </Project> */}
         </Projectss>
     </Container>
   )
