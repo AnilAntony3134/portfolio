@@ -88,14 +88,14 @@ const Aboutme = () => {
         
             <Description>
                 <P>
-                After passing out as biology student after +2 my aspiration was to to tell stories, 
-                and thats when I realised my college doesn't offer a film degree and  I started doing my Bachelors in Computer Science, 
-                I was creating videos trying to to tell inspiring stories. 
+                After finishing th grade as biology student, my aspiration was to tell stories, 
+                and thats when I realised my college doesn't offer a film degree and  I started doing my Bachelors in Computer Science. 
+                I was then creating videos trying to to tell inspiring stories. 
                 </P>
-                <P>That's when I was asked upon to create a website for my church, and thats when I entered the world of code and realized the modern way of telling stories is through technology, I created a react app with no prior knowledge about react in 5 days and delivered the website and thats why I started learning and acquring a strong understanding of javascript React and CSS.
+                <P>I while ago I was asked upon to create a website for my church, and thats when I entered the world of coding and realized the modern way of telling stories is through technology. I created a React app with no prior knowledge about of the same, In just 5 days by learning and acquiring a strong understanding of JavaScript React and CSS.
                 </P>
-                <P>As a developer I find a lot of joy and exitement utilizing my skills to help troubleshoot bugs and pushing projects forward. I enjoy learning new technologies and growing in a field that is contantly pushed.</P>  
-               <P> Feel free to connect with me lets talk about web dev , tech , sports , filmmaking and cooking or how I can be of help to your team or business. I'd love to connect with other dreamers and grow together. </P>
+                <P>As a developer I find a lot of joy and excitement utilizing my skills to help troubleshoot bugs and pushing projects forward. I enjoy learning new technologies and growing in a field that is contantly pushed.</P>  
+               <P> Feel free to connect with me, lets talk about webdev , tech , sports , filmmaking and cooking or how I can be of help to your team or business. I'd love to connect with other dreamers and grow together. </P>
                 <B>Lets build something cool:</B>
                {/* <B>Mail:</B> <P> anilantony3134@gmail.com</P>
                 <B>Phone:</B> <P> +91 9037210582</P> */}

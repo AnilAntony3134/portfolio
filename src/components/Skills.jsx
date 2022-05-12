@@ -58,7 +58,7 @@ const Skills = () => {
             Skills
         </Title>
         <Description>
-            Languages and Technologies that I have learned and apllied in my projects.
+            Languages and Technologies that I have learned and applied in my projects.
         </Description>
         <Icons>
         <Icon>

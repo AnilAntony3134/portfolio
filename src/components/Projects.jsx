@@ -107,7 +107,7 @@ const Projects = () => {
                 <Hover>
                     <Title>ECommerce Website</Title>
                     <Desc>React JS</Desc>
-                    <Desc>E Commerce Website which has a working cart using context api and also product listing</Desc>
+                    <Desc>E Commerce Website which has a working cart using context API and also product listing</Desc>
                 </Hover>
                 </a>
             </Project>
@@ -117,7 +117,7 @@ const Projects = () => {
                 <Hover>
                     <Title>Church Website</Title>
                     <Desc>React JS</Desc>
-                    <Desc>Official website for church included blogs & updates 5 day project</Desc>
+                    <Desc>Official website for church that included blogs & updates</Desc>
                 </Hover>
                 </a>
             </Project>
@@ -138,7 +138,7 @@ const Projects = () => {
                 <Hover>
                     <Title>Vehicle Recovery Page</Title>
                     <Desc>HTML CSS</Desc>
-                    <Desc>Official website for church included blogs & updates 5 day project</Desc>
+                    <Desc>Static Website created using HTML and CSS</Desc>
                 </Hover>
                 </a>
             </Project>
@@ -148,7 +148,7 @@ const Projects = () => {
                 <Hover>
                     <Title>Student Union Website</Title>
                     <Desc>HTML CSS</Desc>
-                    <Desc>Official website for church included blogs & updates 5 day project</Desc>
+                    <Desc>Static Website created using HTML and CSS</Desc>
                 </Hover>
                 </a>
             </Project>
@@ -158,7 +158,7 @@ const Projects = () => {
                 <Hover>
                     <Title>Kerala Tourism Website</Title>
                     <Desc>HTML CSS</Desc>
-                    <Desc>Official website for church included blogs & updates 5 day project</Desc>
+                    <Desc>Static Website created using HTML CSS and JavaScript</Desc>
                 </Hover>
                 </a>
             </Project>

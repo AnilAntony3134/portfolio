@@ -57,7 +57,7 @@ const Contact = () => {
             Contact Info
         </Title>
         <Desc>
-            Feel free to contact me for career prospects business services and other professional enquiries
+            Feel free to contact me for career prospects, business services and other professional enquiries
         </Desc>
         <Items>
         <Item>
@@ -68,7 +68,7 @@ const Contact = () => {
                 Location
             </Title1>
             <Desc1>
-                Bengaluru, Kanataka
+                Bengaluru, Karnataka
             </Desc1>
         </Item>
         <Item>
