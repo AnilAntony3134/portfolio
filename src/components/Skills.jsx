@@ -93,10 +93,10 @@ const Skills = () => {
             <SiNetlify />
             <P>Netlify</P>
         </Icon>
-        {/* <Icon>
+        {<Icon>
             <BsFillBootstrapFill />
             <P>BootStrap</P>
-        </Icon> */}
+        </Icon>}
         </Icons>
     </Container>
   )
