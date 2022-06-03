@@ -1,7 +1,4 @@
 import styledComponents from "styled-components"
-// import GoLocation from 'react-icons/go';
-// import FiPhoneCall  from 'react-icons/fi';
-// import HiMail from 'react-icons/hi';
 import { mobile } from "../responsive"
 
 const Container = styledComponents.div`
@@ -9,7 +6,6 @@ const Container = styledComponents.div`
     flex-direction: column;
     width: 100vw;
     height: 25vh;
-    // justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
